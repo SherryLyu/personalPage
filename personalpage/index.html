@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to Sherry's Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja%20Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent%20Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo%20Tammudu" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+		<span class="site-heading-index-upper">Siyun Sherry Lyu</span><br><br>
+		<span class="site-heading-upper text-primary mb-3">siyunl@g.clemson.edu | Clemson University</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Sherry's world</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span> <i class="fa fa-cloud"></i>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About <i class="fa fa-hand-o-left"></i></a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="professional.html">Professional <i class="fa fa-laptop"></i></a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="comment.php">Comment <i class="fa fa-comments-o"></i></a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact <i class="fa fa-connectdevelop"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <style>
+    .mySlides {display:none;}
+    </style>
+
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+          <div>
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded mySlides" src="img/indexMe.jpg" style="width:75%">
+          </div>
+          <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/indexMe.jpg" alt=""> -->
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Welcome</span>
+              <span class="section-heading-lower">To Sherry's World</span>
+            </h2>
+            <p class="mb-3">Hi how are you! I'am Siyun, also usually go by Sherry. I just graduated from Clemson University in May 2018 and currently I am a Software Engineer Intern at SK hynix memory solution inc. I love food, book, movie, coding and a lot of more things! Welcome to my page and hope you enjoy! Feel free to contact me from contact page or just reach me by email siyunl@g.clemson.edu. Thank you! 
+            </p>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="about.html">Know more about me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 6000); 
+      }
+    </script>
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Siyun(Sherry) Lyu 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
